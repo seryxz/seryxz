@@ -1,16 +1,15 @@
-## Hi there 👋
+const me = {
+  name: "Serhii",
+  focus: ["Bootstrap", "HTML", "CSS", "JavaScript"],
+  languages: ["English", "German"],
+  interests: ["Programming", "Language Learning", "Web Development"],
 
-<!--
-**seryxz/seryxz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  introduce() {
+    console.log(`Hi, I'm ${this.name}`);
+    console.log(`I'm working with ${this.focus.join(", ")}`);
+    console.log(`Languages I know: ${this.languages.join(", ")}`);
+    console.log(`Interests: ${this.interests.join(", ")}`);
+  }
+};
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me.introduce();
