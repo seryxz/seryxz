@@ -1,3 +1,6 @@
+# About Me
+
+```javascript
 const me = {
   name: "Serhii",
   focus: ["Bootstrap", "HTML", "CSS", "JavaScript"],
